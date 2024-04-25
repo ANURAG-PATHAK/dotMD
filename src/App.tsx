@@ -1,9 +1,12 @@
 import './App.css'
+import MarkdownEditor from './MarkdownEditor'
 
 function App() {
   return (
     <>
-      <div className="container text-lg text-center mx-auto my-8">hello</div>
+      <section className='container flex justify-center items-center'>
+        <MarkdownEditor />
+      </section>
     </>
   )
 }
